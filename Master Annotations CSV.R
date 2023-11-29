@@ -2,7 +2,7 @@
 
 # Script to merge annotations log files into a master annotations csv
 
-# download and install packages if not already installed
+# install required packages
 if (!require("data.table")) install.packages("data.table")
 if (!require("tidyverse")) install.packages("tidyverse")
 if (!require("here")) install.packages("here")
