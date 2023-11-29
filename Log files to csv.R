@@ -1,4 +1,4 @@
-# M. Murphy 2023 (based on script by P. Emery and G. Macklin)
+# M. Murphy November 2023 (based on script by P. Emery and G. Macklin)
 
 # Script to merge annotations log files into a master annotations csv
 
