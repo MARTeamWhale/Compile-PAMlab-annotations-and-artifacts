@@ -14,13 +14,6 @@ library(readr)
 library(here)
 library("purrr")
 
-#
-data_all <- list.files(path = "R:/Science/CetaceanOPPNoise/CetaceanOPPNoise_3/Other_PAM_Studies/2023 Fin Whale HF Notes Review_MMurphy/Files to merge",  # Identify all CSV files
-                       pattern = "*.csv", full.names = TRUE) %>% 
-  lapply(read_csv) %>%                              # Store all files in list
-  bind_rows                                         # Combine data sets into one data set 
-data_all
-
 data_join <- list.files(path = "R:/Science/CetaceanOPPNoise/CetaceanOPPNoise_3/Other_PAM_Studies/2023 Fin Whale HF Notes Review_MMurphy/Files to merge", # Identify all CSV files
                         pattern = "*.csv", full.names = TRUE) %>% 
   lapply(read_csv) %>%                              # Store all files in list
